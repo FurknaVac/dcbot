@@ -69,9 +69,9 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
         const nameInput = new TextInputBuilder()
             .setCustomId('user_real_name')
-            .setLabel('Adınız nedir?')
+            .setLabel('İsminiz nedir?')
             .setStyle(TextInputStyle.Short)
-            .setPlaceholder('Örn: Tarık')
+            .setPlaceholder('Örn: Furkan')
             .setRequired(true)
             .setMaxLength(20);
 
